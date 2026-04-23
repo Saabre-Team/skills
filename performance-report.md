@@ -149,6 +149,19 @@ Prioritize recommendations in a 2x2 matrix format:
 - Tests or experiments to run
 - Targets for key metrics
 
+### Verification before sharing
+
+Never send a performance report without fresh proof that the numbers are correct:
+- "The figures look consistent with last month" → NO
+- Numbers from a previous pull not refreshed → NO
+
+What counts:
+- [ ] Key metrics spot-checked against the source (GA4, ad platform, CRM)
+- [ ] Period-over-period comparisons use the same date range length
+- [ ] Recommendations are tied to specific data points, not general intuition
+
+Flag any metric that could not be verified and note the reason.
+
 ## Metric Definitions and Benchmarks
 
 ### Email Marketing

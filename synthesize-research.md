@@ -58,6 +58,13 @@ Create a priority matrix:
 
 ### 4. Generate the Synthesis
 
+**Report all findings before filtering** — Include every observation, including low-confidence signals and contradictory data points. Do not pre-filter by assumed importance. For each finding, note:
+- Frequency (how many participants / sources)
+- Confidence level (high / medium / low)
+- Whether it contradicts other findings
+
+A separate prioritization step will rank them. Omitting findings at this stage is where synthesis goes wrong.
+
 Produce a structured research synthesis:
 
 #### Research Overview

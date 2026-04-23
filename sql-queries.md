@@ -416,6 +416,20 @@ WITH ranked AS (
 SELECT * FROM ranked WHERE rn = 1;
 ```
 
+## Verification Before Declaring a Query Ready
+
+Never say "the query is correct" or "this is the final version" without fresh proof:
+- "I re-read the logic and it looks right" → NO
+- A result from a previous run without re-executing → NO
+
+What counts:
+- **Run the query** and show actual output (at least a sample of rows)
+- **Row count check**: does the result volume match expectations?
+- **Spot-check**: manually verify 2-3 rows against the source
+- **Edge cases tested**: NULL values, zero denominators, missing periods handled
+
+If the query cannot be run (no DB access), flag it explicitly and note which validations remain pending.
+
 ## Error Handling and Debugging
 
 When a query fails:

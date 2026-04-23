@@ -67,7 +67,29 @@ Produce a structured PRD with these sections. See **PRD Structure** below for de
 - **Open Questions**: Unresolved questions tagged with who needs to answer (engineering, design, legal, data)
 - **Timeline Considerations**: Hard deadlines, dependencies, and phasing
 
-### 5. Review and Iterate
+### 5. Atomic Implementation Breakdown
+
+After defining requirements, break the implementation into atomic tasks:
+
+**Each task must:**
+1. Be doable in 2–5 minutes — if longer, split it
+2. List the exact files to create or modify (full paths)
+3. Have no placeholders — describe the concrete change, not "implement the logic"
+4. Include a verification criterion — how do you know it's done (test passing, build clean, curl returning 200, screenshot…)
+
+**Include a "Done when" section** with verifiable criteria defined BEFORE implementation starts:
+
+```markdown
+## Done when
+- [ ] [Specific test command] passes
+- [ ] [Build or typecheck command] succeeds
+- [ ] [Specific user action] produces [specific observable result]
+- [ ] Edge case handled: [empty state / error state / long content]
+```
+
+Criteria must be testable by a command or concrete observation — not "the code looks right" or "it should work."
+
+### 6. Review and Iterate
 
 After generating the PRD:
 - Ask the user if any sections need adjustment

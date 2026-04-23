@@ -71,11 +71,36 @@ Plan a sprint by scoping work, estimating capacity, and setting clear goals.
 |------|--------|------------|
 | [Risk] | [What happens] | [What to do] |
 
-### Definition of Done
+### Definition of Done — Sprint Level
 - [ ] Code reviewed and merged
 - [ ] Tests passing
 - [ ] Documentation updated (if applicable)
 - [ ] Product sign-off
+
+### Atomic Task Format
+
+Every backlog item must be broken into atomic tasks before the sprint starts. Each task:
+- Takes 2–5 minutes to complete (if longer, split it)
+- Lists exact files to modify or create
+- Has a verification criterion — test pass, build clean, curl 200, screenshot
+
+**"Done when" — per story**
+
+Define verifiable completion criteria BEFORE implementation, not after. Example:
+
+```markdown
+## Done when — [Story name]
+- [ ] `npm test -- [test-file]` passes
+- [ ] `tsc --noEmit` clean (no new errors)
+- [ ] Route [X] returns expected response
+- [ ] Empty state renders correctly (no data scenario)
+```
+
+**Anti-patterns to reject in sprint planning:**
+- "Implement the backend" → split by endpoint
+- "Add tests" → list which behaviors to cover
+- "Fix the bug" → define the reproduction scenario and the verification step
+- "TODO: to be defined" → forbidden in a committed task
 
 ### Key Dates
 | Date | Event |

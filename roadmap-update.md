@@ -93,6 +93,13 @@ After generating the roadmap:
 - Offer to draft communication about roadmap changes
 - If project management tool is connected, offer to update ticket statuses
 
+**Atomic milestones** — Each roadmap item should have a verifiable completion criterion, not just a label. Before finalizing, check that every initiative includes:
+- A concrete "Done when" statement (what is observable when it ships)
+- A realistic timeline based on known capacity, not wishful thinking
+- Dependencies called out explicitly — not buried in notes
+
+Vague entries like "improve onboarding" or "scale infrastructure" should be pushed back until they have a specific, testable definition of done.
+
 ## Roadmap Frameworks
 
 ### Now / Next / Later

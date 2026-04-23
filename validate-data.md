@@ -84,7 +84,23 @@ Provide specific, actionable suggestions:
 - Better visualizations or framings for key points
 - Missing context that stakeholders would want
 
-### 8. Generate Confidence Assessment
+### 8. Verification before sign-off
+
+**Never declare an analysis "validated" or "ready to share" without fresh proof.** The following do NOT count as verification:
+
+- "I re-read the query and it looks right" → NO
+- "The numbers seem reasonable" → NO
+- "The diff from the last version is clean" → NO
+- Output from a previous run (not fresh) → NO
+
+What counts:
+- A recalculated spot-check that matches (show the calc)
+- A cross-reference to a known source that agrees (name the source)
+- A sanity check that passed (show the boundary values)
+
+If a check fails, the analysis is not ready — fix it and re-check.
+
+### 9. Generate Confidence Assessment
 
 Rate the analysis on a 3-level scale:
 

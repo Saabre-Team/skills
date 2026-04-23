@@ -106,9 +106,13 @@ If ~~product analytics is connected, reference any available historical performa
 - Mitigation strategy for each
 
 ### 10. Next Steps
-- Immediate action items to kick off the campaign
-- Stakeholder approvals needed
-- Key decision points
+
+**Report all before filtering** — List every action item, dependency, and open question before prioritizing. Do not pre-filter based on assumed importance — include low-confidence items too, flagged as such. A downstream review step will rank them.
+
+- Immediate action items to kick off the campaign (with owner and deadline)
+- Stakeholder approvals needed and who owns each
+- Key decision points that are still open
+- Items that are uncertain or blocked — flag them explicitly rather than omitting them
 
 ## Planning Reference
 

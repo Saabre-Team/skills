@@ -106,6 +106,13 @@ After generating the review:
 - Offer to draft experiment proposals for areas of concern
 - Offer to set up a metrics review template for recurring use
 
+**Verification before sign-off** — Do not declare the review "complete" or "ready to present" without:
+- [ ] At least 2 key metrics cross-checked against a known source (dashboard, prior report, or finance data)
+- [ ] Anomalies investigated, not just flagged — each spike or drop has a hypothesis
+- [ ] "Looks reasonable" is not a check — show the cross-reference
+
+If a metric cannot be verified (source unavailable), say so explicitly rather than presenting it as confirmed.
+
 ## Product Metrics Hierarchy
 
 ### North Star Metric

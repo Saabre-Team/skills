@@ -26,6 +26,21 @@ User runs `/brand-review` or asks to review, check, or audit content against bra
    - If a brand style guide is configured in local settings, use it automatically
    - If not configured, ask: "Do you have a brand style guide or voice guidelines I should review against? You can paste them, share a file, or describe your brand voice. Otherwise, I'll do a general review for clarity, consistency, and professionalism."
 
+## Core rule — Report all before filtering
+
+**Report every deviation you find, including ones you are uncertain about or consider low-severity.** Do not filter for importance or confidence at this stage. For each finding, include:
+- Your confidence level (high / medium / low)
+- An estimated severity (High / Medium / Low)
+
+A separate prioritization step will decide what gets fixed. Pre-filtering causes real problems to slip through.
+
+What does NOT count as a review:
+- "Looks consistent to me" without checking specific elements
+- "Tone seems on-brand" without referencing specific voice attributes
+- Skipping sections because they seem fine at a glance
+
+---
+
 ## Review Process
 
 ### With Brand Guidelines Configured

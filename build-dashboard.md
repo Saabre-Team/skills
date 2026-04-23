@@ -124,6 +124,15 @@ Use the filter and interactivity implementation patterns below for dropdown filt
 3. Confirm it renders correctly
 4. Provide instructions for updating data or customizing
 
+**Verification before declaring done** — Do not say "the dashboard is ready" without confirming:
+- [ ] All charts render without errors in the browser
+- [ ] KPI values match the source data (spot-check at least 2 figures)
+- [ ] Filters work and update charts correctly
+- [ ] No console errors (open browser devtools and check)
+- [ ] Layout is readable on the target screen size
+
+"Looks good in the code" is not verification. Open it, check it, then declare it done.
+
 ---
 
 ## Base Template

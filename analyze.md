@@ -67,6 +67,13 @@ Before sharing results, run through validation checks:
 
 If any check raises concerns, investigate and note caveats.
 
+**Verification before completion** — Never declare an analysis "done" or "ready to share" without fresh proof. The following do NOT count as verification:
+- "I re-read the numbers and they look right" → NO
+- "The trend seems consistent" → NO
+- Results from a previous run (not freshly computed) → NO
+
+What counts: a recalculated spot-check that matches, a cross-reference to a known source (dashboard, prior report), or a boundary check that passes. Show the check — don't just assert it passed.
+
 ### 5. Present Findings
 
 **For quick answers:**
