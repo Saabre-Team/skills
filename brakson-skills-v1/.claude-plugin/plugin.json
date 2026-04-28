@@ -1,0 +1,9 @@
+{
+  "name": "brakson-skills-v1",
+  "version": "1.0.0",
+  "description": "Bibliothèque de skills Brakson — Marketing, Product, Data & custom. Un seul plugin pour toute l'équipe.",
+  "author": {
+    "name": "Brakson"
+  },
+  "keywords": ["marketing", "product", "data", "analytics", "ga4", "sql", "sprint", "roadmap"]
+}

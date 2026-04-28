@@ -1,0 +1,23 @@
+{
+  "name": "brakson-skills",
+  "owner": {
+    "name": "Brakson",
+    "email": "contact@saabre.com"
+  },
+  "plugins": [
+    {
+      "name": "brakson-skills-v1",
+      "description": "31 skills métier pour les équipes Brakson — Marketing, Product Owner, Data, Customer Support, Sales",
+      "author": {
+        "name": "Brakson"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Saabre-Team/skills.git",
+        "path": "brakson-skills-v1",
+        "ref": "main"
+      }
+    }
+  ]
+}
